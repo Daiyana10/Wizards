@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>https://jsfiddle.net/#
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>replit</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+  <body>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="https://ec3e9c03-d315-4cdc-a5dc-c2a833089cba-00-17rfqmztsvi6a.kirk.replit.dev/" class="active">Home Page</a>
+      <div id="myLinks">
+        <a href="https://4ee1f745-cdca-492a-9db9-d039d9359a15-00-2qwiou3s5127r.kirk.replit.dev/">Spell Books</a>
+        <a href="https://02ed62a0-1d5e-4675-aaed-b89fffd2e207-00-wdwssfqxqkjc.janeway.replit.dev/">Potion Recipes </a>
+        <a href="https://dcd75408-fb3f-4f5d-8727-940ab0fadb1e-00-19k36xs5zfwd2.janeway.replit.dev/">Ancient Scrolls </a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        Menu <i class="fa fa-caret-down"></i>
+      </a>
+    </div>
+  </body>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+
+  </script>
+  <!--End of Navigation Menu -->
+
+  <body>
+    <p style="color:#943333;text-align:center;font-size:35px;border:5px outset #f4cb71;background-color:#c5bf8c"> HOGWARTS SCHOOL OF WITCHCRAFT &amp; WIZARDRY
+      <br>
+      Library </p>
+    <br>
+    <br>
+    <script src="script.js"></script>
+  </body>
+  <br>
+  <a href="https://4ee1f745-cdca-492a-9db9-d039d9359a15-00-2qwiou3s5127r.kirk.replit.dev/">
+    <h1>Spell books: </h1>
+    <img class="spellbooks" src="spellbook.png" width="300" height="200" alt="Our spell book logo">
+  </a>
+  </br>
+  <br>
+  <a href="https://02ed62a0-1d5e-4675-aaed-b89fffd2e207-00-wdwssfqxqkjc.janeway.replit.dev/">
+    <h1>Potion Recipes: </h1>
+    <br>
+    <a href="https://dcd75408-fb3f-4f5d-8727-940ab0fadb1e-00-19k36xs5zfwd2.janeway.replit.dev/">
+      <h1>Ancient Scrolls: </h1>
+      <br>
+
+    </a>
+
+
+
+
+
+</html>
